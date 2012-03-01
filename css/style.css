@@ -1,0 +1,152 @@
+/* css reset courtesy of http://meyerweb.com/eric/tools/css/reset/ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* general */
+
+body {
+    line-height: 1;
+    background-color:#505964;
+    min-width:720px;
+    font-family:"Georgia", serif;
+    color:#222222;
+}
+
+.clear {
+    clear:both;
+}
+
+.page-width {
+    width:100%;
+    background-color:#ffffff;
+}
+
+.content-width {
+    width:720px;
+}
+
+.center {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+a:link, a:visited, a:active {
+    color:#3b5998;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+/* header */
+
+div#header {
+    text-align:center;
+    font-size:60px;
+    font-family:"Georgia", serif;
+    letter-spacing:5px;
+    padding:50px 0px 10px 0px;
+}
+
+/* body */
+
+div#body {
+    font-size:24px;
+    text-align:justify;
+    width:600px;
+    padding:30px 0px 50px 0px;
+    line-height:150%;
+}
+
+/* footer */
+
+div#footer {
+    text-align:center;
+    font-size:14px;
+    padding:30px 0px;
+    color:#ffffff;
+    min-height:20px;
+}
+
+ul#contact {
+    text-align: left;
+    display:inline;
+    vertical-align:center;
+}
+
+ul#contact li {
+    display:inline;
+    margin:5px;
+}
+
+ul#contact li span {
+    padding-left:24px;
+}
+
+span.twitter{
+    background:url(/images/favicons/twitter.png) no-repeat
+}
+
+span.facebook{
+    background:url(/images/favicons/facebook.png) no-repeat
+}
+
+span.github{
+    background:url(/images/favicons/github.png) no-repeat
+}
+
+span.tumblr{
+    background:url(/images/favicons/tumblr.png) no-repeat
+}
+
+span.foursquare{
+    background:url(/images/favicons/foursquare.png) no-repeat
+}
+
+span.linkedin{
+    background:url(/images/favicons/linkedin.png) no-repeat
+}
+
+div#footer a:link, div#footer a:visited, div#footer a:hover, div#footer a:active {
+    color:#fff;
+    text-decoration:none;
+}
