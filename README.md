@@ -1,5 +1,5 @@
-www.walterblaurock.com
-===============
+walterblaurock.com
+==================
 
 This project contains the code behind <http://www.walterblaurock.com/>. I hope for it to someday become a hub for my online life, automatically pulling in content I've already posted elsewhere on the web; for now, it simply links you to that content.
 
