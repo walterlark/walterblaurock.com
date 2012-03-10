@@ -146,6 +146,13 @@ span.linkedin{
     background:url(/images/favicons/linkedin.png) no-repeat
 }
 
+span.vimeo{
+    background:url(/images/favicons/vimeo.png) no-repeat
+}
+
+span.wordpress{
+    background:url(/images/favicons/wordpress.png) no-repeat
+}
 div#footer a:link, div#footer a:visited, div#footer a:hover, div#footer a:active {
     color:#fff;
     text-decoration:none;
