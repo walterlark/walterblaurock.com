@@ -111,13 +111,11 @@ ul#contact {
     text-align: left;
     display:inline;
     vertical-align:center;
-    line-height:300%;
 }
 
 ul#contact li {
     display:inline;
-    margin:5px;
-    padding-left:24px;
+    padding:0px 16px;
 }
 
 ul#contact li span {
